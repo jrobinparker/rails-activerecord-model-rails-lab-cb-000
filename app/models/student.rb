@@ -5,6 +5,7 @@ class Student < ActiveRecord::Base
    
    @student = Student
    student_name_array = @student.to_s
+   
    return student_name_array.join (" ")
 
    
