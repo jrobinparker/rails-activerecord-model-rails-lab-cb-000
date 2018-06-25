@@ -6,7 +6,8 @@ class Student < ActiveRecord::Base
     first_name = student.first_name.to_s 
     last_name = student.last_name.to_s 
     return first_name + " " + last_name
-  end 
+  end
+  
  end
  
 end
